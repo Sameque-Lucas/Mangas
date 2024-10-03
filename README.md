@@ -1,4 +1,4 @@
-# Mangas
+# Mangas Mobile
 Desenvolvimento Mobile
 Professor: Daivid Vasconcelos
 
