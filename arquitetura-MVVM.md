@@ -1,5 +1,5 @@
 # Arquitetura MVVM
 
 Link da apresentação:
-https://drive.google.com/file/d/1EMyPv_I1sRaQNYB4q8hyR7OmbDMwgRUb/view?usp=sharing
+https://docs.google.com/presentation/d/15idCd9wbw5Xf3lnjaPRR59Y9wyW5VwhS/edit?usp=sharing&ouid=116792961246546414571&rtpof=true&sd=true
 
