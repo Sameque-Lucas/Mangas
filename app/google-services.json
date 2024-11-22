@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "862691903124",
+    "project_id": "booksaga-aae35",
+    "storage_bucket": "booksaga-aae35.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:862691903124:android:cdec08a85f22bf625dd681",
+        "android_client_info": {
+          "package_name": "com.example.booksaga"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDtfuQxpU3B5rFMuCtu1bh6Qtj6RhObtPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
