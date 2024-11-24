@@ -10,9 +10,9 @@
               <option name="connection">
                 <ConnectionSetting>
                   <option name="appId" value="com.example.booksaga" />
-                  <option name="mobileSdkAppId" value="1:862691903124:android:cdec08a85f22bf625dd681" />
-                  <option name="projectId" value="booksaga-aae35" />
-                  <option name="projectNumber" value="862691903124" />
+                  <option name="mobileSdkAppId" value="1:664791607669:android:95c77c961b6fc78d814b3c" />
+                  <option name="projectId" value="booksaga-ce328" />
+                  <option name="projectNumber" value="664791607669" />
                 </ConnectionSetting>
               </option>
               <option name="signal" value="SIGNAL_UNSPECIFIED" />

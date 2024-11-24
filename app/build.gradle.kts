@@ -2,8 +2,9 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
     alias(libs.plugins.kotlin.compose)
-    alias(libs.plugins.google.gms.google.services)
+    alias(libs.plugins.google.gms.google.services) // Já está declarando o plugin aqui
 }
+
 
 android {
     namespace = "com.example.booksaga"
@@ -42,20 +43,33 @@ android {
 
 dependencies {
 
+    // Dependências principais do Android
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
+    implementation(platform(libs.androidx.compose.bom))  // BOM do Compose
+
+    // Firebase BOM e autenticação
+    implementation(platform("com.google.firebase:firebase-bom:33.6.0")) // Firebase BOM
+    implementation(libs.firebase.auth)
+
+    // UI/Material
     implementation(libs.androidx.ui)
     implementation(libs.androidx.ui.graphics)
     implementation(libs.androidx.ui.tooling.preview)
     implementation(libs.androidx.material3)
-    implementation(libs.firebase.auth)
+
+    // Firebase Analytics
+    implementation("com.google.firebase:firebase-analytics")
+
+    // Testes
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
+    androidTestImplementation(platform(libs.androidx.compose.bom)) // Certifique-se de que este BOM é necessário aqui
     androidTestImplementation(libs.androidx.ui.test.junit4)
+
+    // Dependências de Debug
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 }
